@@ -1,0 +1,26 @@
+{
+  "context-menu": {
+    "atom-text-editor": [
+      {
+        "label": "Toggle andreea-word-count",
+        "command": "andreea-word-count:toggle"
+      }
+    ]
+  },
+  "menu": [
+    {
+      "label": "Packages",
+      "submenu": [
+        {
+          "label": "Word Count",
+          "submenu": [
+            {
+              "label": "Toggle",
+              "command": "andreea-word-count:toggle"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
